@@ -2,4 +2,4 @@
 const currentUser = 'Scavenger Hunts';
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
-const shortGreeting = `Welcome, ${currentUser.slice(2,3)}!`;
+const shortGreeting = `Welcome, ${currentUser.slice(0,3)}!`;
